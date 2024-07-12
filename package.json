@@ -1,0 +1,22 @@
+{
+  "name": "my-profile",
+  "version": "1.0.0",
+  "description": "My web profile.",
+  "main": "index.html",
+  "scripts": {
+    "test": "",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./css/style.css --watch",
+    "prod": "npx tailwindcss -i ./src/input.css -o ./css/style.css --minify"
+  },
+  "keywords": [
+    "dhanyg",
+    "personal",
+    "web",
+    "profile"
+  ],
+  "author": "Ramadhan Yoga",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
